@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centinela · Bitácora de vigilancia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink: #0f1620;
+    --ink-2: #141d29;
+    --paper: #f6f3ec;
+    --paper-dim: #e7e2d5;
+    --amber: #e8a33d;
+    --amber-dim: #6b4d1f;
+    --teal: #4f9c92;
+    --teal-dim: #24413d;
+    --text: #ede9df;
+    --text-dim: #a9a496;
+    --rule: rgba(237,233,223,0.12);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:920px;
+    margin:0 auto;
+    padding:56px 24px 120px;
+  }
+  header{
+    margin-bottom:56px;
+    border-bottom:1px solid var(--rule);
+    padding-bottom:32px;
+  }
+  .eyebrow{
+    font-family:'JetBrains Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--amber);
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:14px;
+  }
+  .eyebrow .dot{
+    width:7px;height:7px;border-radius:50%;
+    background:var(--amber);
+    box-shadow:0 0 0 0 rgba(232,163,61,0.6);
+    animation:pulse 2.4s infinite;
+  }
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(232,163,61,0.45);}
+    70%{box-shadow:0 0 0 8px rgba(232,163,61,0);}
+    100%{box-shadow:0 0 0 0 rgba(232,163,61,0);}
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:clamp(34px,5vw,52px);
+    margin:0 0 12px;
+    letter-spacing:-0.01em;
+  }
+  header p{
+    color:var(--text-dim);
+    font-size:15px;
+    line-height:1.6;
+    max-width:56ch;
+    margin:0;
+  }
+  h2.section-title{
+    font-family:'Fraunces', serif;
+    font-size:20px;
+    font-weight:600;
+    margin:0 0 20px;
+    color:var(--paper);
+  }
+  section{margin-bottom:64px;}
+
+  /* Tarjetas de sitios */
+  .sites{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(260px,1fr));
+    gap:14px;
+  }
+  .site-card{
+    background:var(--ink-2);
+    border:1px solid var(--rule);
+    border-radius:10px;
+    padding:18px 20px;
+  }
+  .site-top{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    margin-bottom:10px;
+  }
+  .signal{
+    width:9px;height:9px;border-radius:50%;flex-shrink:0;
+  }
+  .signal.cambio-detectado{background:var(--amber); box-shadow:0 0 8px rgba(232,163,61,0.6);}
+  .signal.sin-cambios{background:var(--teal);}
+  .signal.primera-captura{background:var(--text-dim);}
+  .signal.error{background:#c25454;}
+  .site-name{
+    font-weight:600;
+    font-size:15px;
+    color:var(--paper);
+  }
+  .site-url{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    color:var(--text-dim);
+    word-break:break-all;
+    margin-bottom:10px;
+  }
+  .site-meta{
+    font-size:12px;
+    color:var(--text-dim);
+    display:flex;
+    justify-content:space-between;
+    border-top:1px solid var(--rule);
+    padding-top:10px;
+  }
+  .status-label{
+    font-family:'JetBrains Mono', monospace;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+  }
+  .status-label.cambio-detectado{color:var(--amber);}
+  .status-label.sin-cambios{color:var(--teal);}
+  .status-label.error{color:#c25454;}
+
+  /* Bitácora / timeline */
+  .log{
+    position:relative;
+    padding-left:26px;
+  }
+  .log::before{
+    content:"";
+    position:absolute;
+    left:4px; top:6px; bottom:6px;
+    width:1px;
+    background:var(--rule);
+  }
+  .log-entry{
+    position:relative;
+    margin-bottom:22px;
+  }
+  .log-entry::before{
+    content:"";
+    position:absolute;
+    left:-26px; top:6px;
+    width:9px; height:9px;
+    border-radius:50%;
+    background:var(--amber);
+    border:2px solid var(--ink);
+  }
+  .log-card{
+    background:var(--ink-2);
+    border:1px solid var(--rule);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .log-head{
+    padding:14px 18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    cursor:pointer;
+    gap:12px;
+  }
+  .log-head:hover{background:rgba(237,233,223,0.03);}
+  .log-title{font-weight:600; color:var(--paper); font-size:14.5px;}
+  .log-time{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    color:var(--text-dim);
+    white-space:nowrap;
+  }
+  .log-toggle{
+    font-family:'JetBrains Mono', monospace;
+    color:var(--amber);
+    font-size:12px;
+  }
+  .diff{
+    display:none;
+    font-family:'JetBrains Mono', monospace;
+    font-size:12.5px;
+    line-height:1.65;
+    padding:0 18px 16px;
+    border-top:1px solid var(--rule);
+    white-space:pre-wrap;
+    word-break:break-word;
+  }
+  .diff.open{display:block; padding-top:14px;}
+  .diff .add{color:var(--teal); }
+  .diff .del{color:#c98b8b;}
+  .diff .ctx{color:var(--text-dim);}
+
+  .empty{
+    color:var(--text-dim);
+    font-size:14px;
+    border:1px dashed var(--rule);
+    border-radius:10px;
+    padding:24px;
+    font-family:'JetBrains Mono', monospace;
+  }
+  footer{
+    color:var(--text-dim);
+    font-size:12px;
+    font-family:'JetBrains Mono', monospace;
+    border-top:1px solid var(--rule);
+    padding-top:20px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow"><span class="dot"></span>Bitácora de vigilancia · actualización automática</div>
+    <h1>Centinela</h1>
+    <p>Cada web listada abajo se revisa por su cuenta desde GitHub Actions. Cuando el contenido cambia, queda anotado aquí con la diferencia exacta respecto a la captura anterior.</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">Webs vigiladas</h2>
+    <div id="sites" class="sites"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Registro de cambios</h2>
+    <div id="log" class="log"></div>
+  </section>
+
+  <footer id="footer">Cargando…</footer>
+</div>
+
+<script>
+const statusText = {
+  "cambio-detectado": "Cambio detectado",
+  "sin-cambios": "Sin cambios",
+  "primera-captura": "Primera captura",
+  "error": "Error al revisar"
+};
+
+function timeAgo(iso){
+  if(!iso) return "—";
+  const d = new Date(iso);
+  const diffMin = Math.round((Date.now() - d.getTime())/60000);
+  if(diffMin < 1) return "justo ahora";
+  if(diffMin < 60) return `hace ${diffMin} min`;
+  const diffH = Math.round(diffMin/60);
+  if(diffH < 24) return `hace ${diffH} h`;
+  const diffD = Math.round(diffH/24);
+  return `hace ${diffD} d`;
+}
+
+function renderDiffLine(line){
+  const cls = line.startsWith('+') ? 'add' : line.startsWith('-') ? 'del' : 'ctx';
+  const safe = line.replace(/&/g,'&amp;').replace(/</g,'&lt;');
+  return `<div class="${cls}">${safe || ' '}</div>`;
+}
+
+async function load(){
+  const footer = document.getElementById('footer');
+  try{
+    const [sitesRes, historyRes] = await Promise.all([
+      fetch('data/sites.json').then(r => r.ok ? r.json() : {}),
+      fetch('data/history.json').then(r => r.ok ? r.json() : [])
+    ]);
+
+    const sitesEl = document.getElementById('sites');
+    const slugs = Object.keys(sitesRes);
+    if(slugs.length === 0){
+      sitesEl.innerHTML = '<div class="empty">Todavía no hay capturas. Se completará tras la primera ejecución del workflow.</div>';
+    } else {
+      sitesEl.innerHTML = slugs.map(slug => {
+        const s = sitesRes[slug];
+        return `
+          <div class="site-card">
+            <div class="site-top">
+              <span class="signal ${s.last_status}"></span>
+              <span class="site-name">${s.name}</span>
+            </div>
+            <div class="site-url">${s.url}</div>
+            <div class="site-meta">
+              <span class="status-label ${s.last_status}">${statusText[s.last_status] || s.last_status}</span>
+              <span>rev. ${timeAgo(s.last_checked)}</span>
+            </div>
+          </div>`;
+      }).join('');
+    }
+
+    const logEl = document.getElementById('log');
+    if(!historyRes.length){
+      logEl.innerHTML = '<div class="empty">Sin cambios registrados todavía. En cuanto una web cambie, aparecerá aquí.</div>';
+    } else {
+      logEl.innerHTML = historyRes.map((entry, i) => `
+        <div class="log-entry">
+          <div class="log-card">
+            <div class="log-head" onclick="document.getElementById('diff-${i}').classList.toggle('open')">
+              <div>
+                <div class="log-title">${entry.name}</div>
+                <div class="site-url">${entry.url}</div>
+              </div>
+              <div style="display:flex; align-items:center; gap:10px;">
+                <span class="log-time">${timeAgo(entry.timestamp)}</span>
+                <span class="log-toggle">ver diff</span>
+              </div>
+            </div>
+            <div id="diff-${i}" class="diff">${entry.diff.map(renderDiffLine).join('')}</div>
+          </div>
+        </div>`).join('');
+    }
+
+    footer.textContent = `Última actualización de datos: ${new Date().toLocaleString('es-ES')} · ${slugs.length} web(s) vigilada(s)`;
+  } catch(err){
+    footer.textContent = 'No se pudieron cargar los datos (data/sites.json, data/history.json).';
+    console.error(err);
+  }
+}
+
+load();
+</script>
+</body>
+</html>
