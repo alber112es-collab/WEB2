@@ -19,11 +19,7 @@
     "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
     "selector": null
   },
-  {
-    "name": "IAS Listas de Espera",
-    "url": "https://ias1.larioja.org/listaespera/car/llamamientos-listas-espera",
-    "selector": null
-  },
+
   {
     "name": "Logroño-2",
     "url": "https://logrono.es/-/bases-y-convocatoria-de-36-plazas-de-administrativo/a-oep-2021-2022-2023-2024",
