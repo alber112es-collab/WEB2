@@ -1,1 +1,49 @@
-{}
+{
+  "haro": {
+    "name": "HARO",
+    "url": "https://haro.sedipualba.es/",
+    "hash": "551071d1aef970f16246fc8080106a332dc9d1573a302857b7c77244df5dd1d0",
+    "last_checked": "2026-08-27T15:35:05+00:00",
+    "last_status": "primera-captura",
+    "last_change_at": null
+  },
+  "logro-o-1": {
+    "name": "Logroño-1",
+    "url": "https://logrono.es/-/bases-y-convocatoria-para-la-creacion-de-una-bolsa-de-empleo-como-personal-funcionario-en-regimen-de-interinidad-en-plaza-de-tecnico/a-de-administracion-general-",
+    "hash": "1c95b2a2f7d37cf3cb6add4dc8bcd69ea48632b1d045acaec62d68fffedca40b",
+    "last_checked": "2026-08-27T15:35:05+00:00",
+    "last_status": "primera-captura",
+    "last_change_at": null
+  },
+  "unirioja": {
+    "name": "Unirioja",
+    "url": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
+    "last_checked": "2026-08-27T15:35:05+00:00",
+    "last_status": "error",
+    "last_error": "429 Client Error: Too Many Requests for url: https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/"
+  },
+  "calahorra": {
+    "name": "Calahorra",
+    "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
+    "hash": "87f3363eb966640011aa171be71faddde63b2f59fd9039af1c05d40c9c2449bc",
+    "last_checked": "2026-08-27T15:35:05+00:00",
+    "last_status": "primera-captura",
+    "last_change_at": null
+  },
+  "la-rioja": {
+    "name": "La Rioja",
+    "url": "https://www.larioja.com",
+    "hash": "8ee38b8ebdce0d443b72ccdb2a101250ab57bdf7a3e4ffc717b87218df4100a8",
+    "last_checked": "2026-08-27T15:35:05+00:00",
+    "last_status": "primera-captura",
+    "last_change_at": null
+  },
+  "logro-o-2": {
+    "name": "Logroño-2",
+    "url": "https://logrono.es/-/bases-y-convocatoria-de-36-plazas-de-administrativo/a-oep-2021-2022-2023-2024",
+    "hash": "7462836f0a8bb652f16fda9332efdb82385da251b0ab3f4fab614eadeee1a3a9",
+    "last_checked": "2026-08-27T15:35:05+00:00",
+    "last_status": "primera-captura",
+    "last_change_at": null
+  }
+}
