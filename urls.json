@@ -1,7 +1,7 @@
 [
   {
     "name": "HARO",
-    "url": "https://haro.sedipualba.es/",
+    "url": "https://haro.sedipualba.es/tablondeanuncios/",
     "selector": null
   },
   {
@@ -20,8 +20,8 @@
     "selector": null
   },
   {
-    "name": "La Rioja",
-    "url": "https://www.larioja.com",
+    "name": "IAS Listas de Espera",
+    "url": "https://ias1.larioja.org/listaespera/car/llamamientos-listas-espera",
     "selector": null
   },
   {
