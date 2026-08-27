@@ -8,26 +8,25 @@
     "name": "Logroño-1",
     "url": "https://logrono.es/-/bases-y-convocatoria-para-la-creacion-de-una-bolsa-de-empleo-como-personal-funcionario-en-regimen-de-interinidad-en-plaza-de-tecnico/a-de-administracion-general-",
     "selector": null
-  }
+  },
   {
     "name": "Unirioja",
     "url": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
     "selector": null
-  }
+  },
   {
     "name": "Calahorra",
     "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
     "selector": null
-  }
-    {
-    "name": "Calahorra",
-    "url": "https://www.larioa.com",
+  },
+  {
+    "name": "La Rioja",
+    "url": "https://www.larioja.com",
     "selector": null
-  }
- {
+  },
+  {
     "name": "Logroño-2",
     "url": "https://logrono.es/-/bases-y-convocatoria-de-36-plazas-de-administrativo/a-oep-2021-2022-2023-2024",
     "selector": null
-  },
-
+  }
 ]
