@@ -1,0 +1,460 @@
+Gobierno de La Rioja
+Estado actual de las siguientes listas de espera:
+Cuerpos de funcionarios
+Grupo A1
+C.F.S.A.E. (ARQUITECTO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+19 de agosto de 2025
+Número de orden en la lista oficial:
+5
+BIÓLOGO- ESTABILIZACIÓN
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+C.F.S.A.E. (INFORMÁTICO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+15 de junio de 2026
+Número de orden en la lista oficial:
+1
+C.F.S.A.E. (INGENIERO AGRÓNOMO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+17 de abril de 2026
+Número de orden en la lista oficial:
+12
+C.F.S.A.E. (INGENIERO CAMINOS, PUERTOS Y CANALES)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+INGENIERO INDUSTRIAL_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+18 de diciembre de 2025
+Número de orden en la lista oficial:
+4
+C.F.S.A.E. (INGENIERO MONTES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+19 de febrero de 2026
+Número de orden en la lista oficial:
+3
+C.F.S.A.E. (PSICÓLOGO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+01 de abril de 2026
+Número de orden en la lista oficial:
+5
+C.F.S.A.E. (TÉCNICO LABORATORIO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+16 de enero de 2025
+Número de orden en la lista oficial:
+3
+TÉCNICO SUPERIOR DE LABORATORIO_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+C.F.S.A.E. (TÉCNICO SUPERIOR)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+01 de abril de 2026
+Número de orden en la lista oficial:
+1
+C.F.S.A.E. (TÉCNICO SUPERIOR CALIDAD  AMBIENTAL)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+10 de junio de 2026
+Número de orden en la lista oficial:
+4
+C.F.S.A.E. (TÉCNICO SUPERIOR DE PREVENCIÓN)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+20 de noviembre de 2025
+Número de orden en la lista oficial:
+2
+C.F.S.A.E. (TÉCNICO SUPERIOR EN ACCIÓN EXTERIOR)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+04 de agosto de 2022
+Número de orden en la lista oficial:
+4
+C.F.S.A.E. (VETERINARIO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+25 de agosto de 2026
+Número de orden en la lista oficial:
+30
+CUERPO TECNICO DE ADMINISTRACION GENERAL
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+03 de agosto de 2026
+Número de orden en la lista oficial:
+21
+E.S.C.F.S.A.E. (FARMACEÚTICO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+25 de mayo de 2026
+Número de orden en la lista oficial:
+4
+E.S.C.F.S.A.E. (INSPECTOR MÉDICO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+07 de abril de 2026
+Número de orden en la lista oficial:
+0
+MÉD. ESP. MEDICINA DEL TRABAJO_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+Lista agotada
+MEDICO ESPECIALISTA MEDICINA TRABAJO
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+16 de mayo de 2025
+Número de orden en la lista oficial:
+1
+E.S.C.F.S.A.E. (TÉCNICO SUPERIOR SANITARIO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+03 de julio de 2026
+Número de orden en la lista oficial:
+3
+Grupo A2
+C.F.G.M.A.E. (ARQUITECTO TÉCNICO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+15 de mayo de 2026
+Número de orden en la lista oficial:
+13
+C.F.G.M.A.E. (AYTE. ARCHIVO Y BIBLIOTECA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+18 de mayo de 2026
+Número de orden en la lista oficial:
+2
+C.F.G.M.A.E. (EDUCADOR)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+18 de agosto de 2026
+Número de orden en la lista oficial:
+37
+EDUCADOR/A_ESTABILIZACION
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+06 de mayo de 2026
+Número de orden en la lista oficial:
+11
+C.F.G.M.A.E. (EDUCADOR DISCAPACIDAD PSIQUICA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+22 de julio de 2024
+Número de orden en la lista oficial:
+1
+C.F.G.M.A.E. (EMPLEO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+13 de agosto de 2026
+Número de orden en la lista oficial:
+28
+C.F.G.M.A.E. (ESCALA INSPECTOR DE COMERCIO Y CONSUMO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+24 de junio de 2024
+Número de orden en la lista oficial:
+1
+C.F.G.M.A.E. (INGENIERO TÉCNICO AGRÍCOLA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+01 de julio de 2026
+Número de orden en la lista oficial:
+11
+C.F.G.M.A.E. (INGENIERO TÉCNICO FORESTAL)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+03 de febrero de 2026
+Número de orden en la lista oficial:
+3
+C.F.G.M.A.E. (INGENIERO TÉCNICO INDUSTRIAL)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+29 de enero de 2026
+Número de orden en la lista oficial:
+15
+C.F.G.M.A.E. (INGENIERO TÉCNICO OBRAS PÚBLICAS)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+28 de marzo de 2022
+Número de orden en la lista oficial:
+0
+C.F.G.M.A.E. (INGENIERO TÉCNICO TELECOMUNICACIONES)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+C.F.G.M.A.E. (LOGOPEDA)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+C.F.G.M.A.E. (TRABAJADOR/A SOCIAL)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+21 de agosto de 2026
+Número de orden en la lista oficial:
+26
+CUERPO GESTION DE ADMINISTRACION GENERAL
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+29 de junio de 2026
+Número de orden en la lista oficial:
+69
+GESTIÓN A.G_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+15 de julio de 2026
+Número de orden en la lista oficial:
+28
+E.S.C.F.G.M.A.E. (ENFERMERO/A)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+28 de julio de 2026
+Número de orden en la lista oficial:
+54
+E.S.C.F.G.M.A.E. (FISIOTERAPEUTA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+23 de julio de 2025
+Número de orden en la lista oficial:
+2
+FISIOTERAPEUTA_ESTABILIZACION
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+08 de mayo de 2025
+Número de orden en la lista oficial:
+8
+E.S.C.F.G.M.A.E. (SUBINSPECTOR SANITARIO)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+Grupo C1
+ANALISTA
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+01 de junio de 2026
+Número de orden en la lista oficial:
+3
+C.AY.F.A.E. (AYTE.TÉCNICO EDUCATIVO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+26 de agosto de 2026
+Número de orden en la lista oficial:
+405
+C.AY.F.A.E. (DELINEANTE)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+21 de agosto de 2024
+Número de orden en la lista oficial:
+4
+DELINEANTE_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+C.AY.F.A.E. (EDUCACIÓN INFANTIL)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+27 de agosto de 2026
+Número de orden en la lista oficial:
+121
+CUERPO ADMINISTRATIVO DE ADMINISTRACION GENERAL
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+19 de agosto de 2026
+Número de orden en la lista oficial:
+121
+ESC.AGENTES FORESTALES   C.AY.F.A.E.
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+13 de julio de 2026
+Número de orden en la lista oficial:
+17
+Grupo C2
+C.A.F.A.E. (AUXILIAR LABORATORIO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+14 de mayo de 2026
+Número de orden en la lista oficial:
+4
+C.A.F.A.E. (CONDUCTOR)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+28 de octubre de 2025
+Número de orden en la lista oficial:
+12
+C.A.F.A.E. (MECÁNICO-CONDUCTOR)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+12 de agosto de 2026
+Número de orden en la lista oficial:
+12
+CUERPO AUXILIAR DE ADMINISTRACION GENERAL
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+25 de agosto de 2026
+Número de orden en la lista oficial:
+283
+E.S.C.A.F.A.E. (AUXILIAR ENFERMERÍA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+25 de agosto de 2026
+Número de orden en la lista oficial:
+115
+Grupo E
+AGRUPACION PROFESIONAL DE ORDENANZAS
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+27 de agosto de 2026
+Número de orden en la lista oficial:
+38
+SUBALTERNO A.G RDI_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+C.OFICIOS A.E. (TELEFONISTA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+12 de agosto de 2026
+Número de orden en la lista oficial:
+4
+Categorías laborales
+Grupo C
+TÉCNICO ESPECIALISTA AGRICULTURA
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+Grupo C1
+GOBERNANTE
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+04 de agosto de 2026
+Número de orden en la lista oficial:
+4
+JEFE DE SALA
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+11 de noviembre de 2025
+Número de orden en la lista oficial:
+3
+TÉCNICO ESPECIALISTA (ALBAÑILERIA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+25 de mayo de 2026
+Número de orden en la lista oficial:
+1
+TÉCNICO PRÁCTICO CONTROL Y VIGILANCIA
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+06 de julio de 2023
+Número de orden en la lista oficial:
+1
+Grupo C2
+COCINERO
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+21 de agosto de 2026
+Número de orden en la lista oficial:
+9
+OFICIAL 1ª OFICIO (AGRICULTURA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+14 de febrero de 2025
+Número de orden en la lista oficial:
+5
+OFICIAL 1ª OFICIO (ALBAÑIL)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+OFICIAL 1ª OFICIO (AUDIOVISUALES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+27 de diciembre de 2024
+Número de orden en la lista oficial:
+3
+OFICIAL 1ª OFICIO (MANTENIMIENTO)
+[Listado ordenado actualizado]
+Lista agotada
+OFICIAL 1ª OFICIO (PREVENCIÓN Y EXTINCIÓN)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+04 de marzo de 2026
+Número de orden en la lista oficial:
+3
+OFICIAL 1ª OFICIO (VIVEROS)
+[Listado ordenado actualizado]
+Lista agotada
+OPERADOR DE MÁQUINA
+[Listado ordenado actualizado]
+Lista agotada
+Grupo E
+OPERARIO
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+27 de agosto de 2026
+Número de orden en la lista oficial:
+171
+OPERARIO DISCAPACIDAD INTELECTUAL
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+17 de junio de 2025
+Número de orden en la lista oficial:
+8
+OPERARIO DISCAPACIDAD INTELECTUAL_ESTABILIZACIÓN
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+OPERARIO ESPECIALIZADO (AGRICULTURA)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+OPERARIO ESPECIALIZADO (CARRETERAS)
+[Listado ordenado actualizado]
+No se han iniciado los llamamientos
+OPERARIO ESPECIALIZADO (COCINA)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+27 de agosto de 2026
+Número de orden en la lista oficial:
+15
+OPERARIO ESPECIALIZADO (MANTENIMIENTO)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+09 de julio de 2026
+Número de orden en la lista oficial:
+21
+OPERARIO ESPECIALIZADO (RETENES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+17 de julio de 2026
+Número de orden en la lista oficial:
+3
+OPERARIO ESPECIALIZADO (RETENES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+07 de julio de 2026
+Número de orden en la lista oficial:
+1
+OPERARIO ESPECIALIZADO (RETENES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+02 de junio de 2026
+Número de orden en la lista oficial:
+3
+OPERARIO ESPECIALIZADO (RETENES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+23 de julio de 2026
+Número de orden en la lista oficial:
+7
+OPERARIO ESPECIALIZADO (RETENES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+22 de julio de 2026
+Número de orden en la lista oficial:
+5
+OPERARIO ESPECIALIZADO (RETENES)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+06 de julio de 2026
+Número de orden en la lista oficial:
+4
+OPERARIO ESPECIALIZADO (VIVEROS)
+[Listado ordenado actualizado]
+Fecha último llamamiento:
+11 de marzo de 2026
+Número de orden en la lista oficial:
+24
