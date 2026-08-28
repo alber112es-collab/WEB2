@@ -1,5 +1,23 @@
 [
   {
+    "id": "haro-2026-08-28T22:10:22+00:00",
+    "slug": "haro",
+    "name": "HARO",
+    "url": "https://haro.sedipualba.es/tablondeanuncios/",
+    "timestamp": "2026-08-28T22:10:22+00:00",
+    "diff": [
+      "--- ",
+      "+++ ",
+      "@@ -89,4 +89,4 @@",
+      " Periodo de cobranza I.A.E.",
+      "-05/06/2026 - 28/08/2026",
+      "-Anuncio cobranza segunda cuota de amortización de obras ejercicio 2026",
+      "+29/05/2026 - 28/05/2032",
+      "+ACTA DE PLENO ORDINARIO 25 DE MARZO DE 2026. SESIÓN 3.",
+      " Página 1 de 2"
+    ]
+  },
+  {
     "id": "haro-2026-08-28T21:57:41+00:00",
     "slug": "haro",
     "name": "HARO",
