@@ -4,7 +4,7 @@ on:
   schedule:
     # Cada 30 minutos. Ajusta según lo que necesites (mínimo real ~5 min,
     # GitHub puede retrasar la ejecución en horas de mucha carga).
-    - cron: "0 */2 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 permissions:
