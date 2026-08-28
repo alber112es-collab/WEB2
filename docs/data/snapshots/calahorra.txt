@@ -65,10 +65,9 @@ Descripción:
 Origen:
 Procedencia:
 Personal
-Secretaria
 Servicios Sociales
 Educación
-Urbanismo
+Secretaria
 Oficina Atención Ciudadana
 Recaudación
 Contratación
@@ -83,6 +82,7 @@ Igualdad
 Drogodependencia
 Padrón de Habitantes
 Participación ciudadana
+Urbanismo
 Intervención
 Fecha Publicación:
 y:

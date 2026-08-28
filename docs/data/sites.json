@@ -3,32 +3,32 @@
     "name": "HARO",
     "url": "https://haro.sedipualba.es/tablondeanuncios/",
     "hash": "a979b97908da9928414a987cbb3cf5b306e0cee6d8648a55a311d47fb30f8b20",
-    "last_checked": "2026-08-27T15:50:31+00:00",
-    "last_status": "cambio-detectado",
+    "last_checked": "2026-08-28T01:10:08+00:00",
+    "last_status": "sin-cambios",
     "last_change_at": "2026-08-27T15:50:31+00:00"
   },
   "logro-o-1": {
     "name": "Logroño-1",
     "url": "https://logrono.es/-/bases-y-convocatoria-para-la-creacion-de-una-bolsa-de-empleo-como-personal-funcionario-en-regimen-de-interinidad-en-plaza-de-tecnico/a-de-administracion-general-",
     "hash": "1c95b2a2f7d37cf3cb6add4dc8bcd69ea48632b1d045acaec62d68fffedca40b",
-    "last_checked": "2026-08-27T15:50:31+00:00",
+    "last_checked": "2026-08-28T01:10:08+00:00",
     "last_status": "sin-cambios",
     "last_change_at": null
   },
   "unirioja": {
     "name": "Unirioja",
     "url": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
-    "last_checked": "2026-08-27T15:50:31+00:00",
+    "last_checked": "2026-08-28T01:10:08+00:00",
     "last_status": "error",
     "last_error": "429 Client Error: Too Many Requests for url: https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/"
   },
   "calahorra": {
     "name": "Calahorra",
     "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
-    "hash": "87f3363eb966640011aa171be71faddde63b2f59fd9039af1c05d40c9c2449bc",
-    "last_checked": "2026-08-27T15:50:31+00:00",
-    "last_status": "sin-cambios",
-    "last_change_at": null
+    "hash": "c37c5664a0dde651fdcb1ccc5f0ad0f4dab94a24c3f38f43f11c9759e9d9ca9d",
+    "last_checked": "2026-08-28T01:10:08+00:00",
+    "last_status": "cambio-detectado",
+    "last_change_at": "2026-08-28T01:10:08+00:00"
   },
   "la-rioja": {
     "name": "La Rioja",
@@ -42,7 +42,7 @@
     "name": "Logroño-2",
     "url": "https://logrono.es/-/bases-y-convocatoria-de-36-plazas-de-administrativo/a-oep-2021-2022-2023-2024",
     "hash": "7462836f0a8bb652f16fda9332efdb82385da251b0ab3f4fab614eadeee1a3a9",
-    "last_checked": "2026-08-27T15:50:31+00:00",
+    "last_checked": "2026-08-28T01:10:08+00:00",
     "last_status": "sin-cambios",
     "last_change_at": null
   },

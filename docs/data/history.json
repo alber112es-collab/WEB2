@@ -1,5 +1,28 @@
 [
   {
+    "id": "calahorra-2026-08-28T01:10:08+00:00",
+    "slug": "calahorra",
+    "name": "Calahorra",
+    "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
+    "timestamp": "2026-08-28T01:10:08+00:00",
+    "diff": [
+      "--- ",
+      "+++ ",
+      "@@ -67,6 +67,5 @@",
+      " Personal",
+      "-Secretaria",
+      " Servicios Sociales",
+      " Educación",
+      "-Urbanismo",
+      "+Secretaria",
+      " Oficina Atención Ciudadana",
+      "@@ -85,2 +84,3 @@",
+      " Participación ciudadana",
+      "+Urbanismo",
+      " Intervención"
+    ]
+  },
+  {
     "id": "haro-2026-08-27T15:50:31+00:00",
     "slug": "haro",
     "name": "HARO",
