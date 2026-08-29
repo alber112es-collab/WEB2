@@ -3,7 +3,7 @@
     "name": "HARO",
     "url": "https://haro.sedipualba.es/tablondeanuncios/",
     "hash": "2ed063b4fe3cb27a15c9a693b6d67dd603219d7cc56350c7566844a8874ce66b",
-    "last_checked": "2026-08-29T03:08:03+00:00",
+    "last_checked": "2026-08-29T03:37:53+00:00",
     "last_status": "sin-cambios",
     "last_change_at": "2026-08-28T22:10:22+00:00"
   },
@@ -11,14 +11,14 @@
     "name": "Logroño-1",
     "url": "https://logrono.es/-/bases-y-convocatoria-para-la-creacion-de-una-bolsa-de-empleo-como-personal-funcionario-en-regimen-de-interinidad-en-plaza-de-tecnico/a-de-administracion-general-",
     "hash": "1c95b2a2f7d37cf3cb6add4dc8bcd69ea48632b1d045acaec62d68fffedca40b",
-    "last_checked": "2026-08-29T03:08:03+00:00",
+    "last_checked": "2026-08-29T03:37:53+00:00",
     "last_status": "sin-cambios",
     "last_change_at": null
   },
   "unirioja": {
     "name": "Unirioja",
     "url": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
-    "last_checked": "2026-08-29T03:08:03+00:00",
+    "last_checked": "2026-08-29T03:37:53+00:00",
     "last_status": "error",
     "last_error": "429 Client Error: Too Many Requests for url: https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/"
   },
@@ -26,7 +26,7 @@
     "name": "Calahorra",
     "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
     "hash": "c37c5664a0dde651fdcb1ccc5f0ad0f4dab94a24c3f38f43f11c9759e9d9ca9d",
-    "last_checked": "2026-08-29T03:08:03+00:00",
+    "last_checked": "2026-08-29T03:37:53+00:00",
     "last_status": "sin-cambios",
     "last_change_at": "2026-08-28T01:10:08+00:00"
   },
@@ -42,7 +42,7 @@
     "name": "Logroño-2",
     "url": "https://logrono.es/-/bases-y-convocatoria-de-36-plazas-de-administrativo/a-oep-2021-2022-2023-2024",
     "hash": "7462836f0a8bb652f16fda9332efdb82385da251b0ab3f4fab614eadeee1a3a9",
-    "last_checked": "2026-08-29T03:08:03+00:00",
+    "last_checked": "2026-08-29T03:37:53+00:00",
     "last_status": "sin-cambios",
     "last_change_at": null
   },
