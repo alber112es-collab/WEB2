@@ -10,9 +10,14 @@
     "selector": null
   },
 {
-  "name": "Unirioja",
-  "url": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
-  "selector": "text:Escala Auxiliar de Administración"
+  "name": "AGE",
+  "url": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-general-administrativo-de-la-administracion-del-estado-ingreso-libre-convocatoria-2025",
+  "selector": null
+},
+  {
+  "name": "AGE",
+  "url": "https://www.larioja.org/larioja-client/cm/portal-ayuntamientos/tkContent?idContent=871400&locale=es_ES",
+  "selector": null
 },
 {
   "name": "NAJERA",
