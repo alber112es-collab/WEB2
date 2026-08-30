@@ -19,7 +19,11 @@
     "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
     "selector": null
   },
-
+ {
+    "name": "NAJERA",
+    "url": "https://najera.sedelectronica.es/info.0",
+    "selector": null
+  },
   {
     "name": "Logroño-2",
     "url": "https://logrono.es/-/bases-y-convocatoria-de-36-plazas-de-administrativo/a-oep-2021-2022-2023-2024",
