@@ -158,25 +158,6 @@
     ]
   },
   {
-    "id": "la-rioja-2026-08-27T15:41:23+00:00",
-    "slug": "la-rioja",
-    "name": "La Rioja",
-    "url": "https://www.larioja.com",
-    "timestamp": "2026-08-27T15:41:23+00:00",
-    "diff": [
-      "--- ",
-      "+++ ",
-      "@@ -134,5 +134,5 @@",
-      " Última hora",
-      "-Hace 10 minutos",
-      "+Hace 16 minutos",
-      " Los conciertos mateos, sin patrocinios",
-      "-Hace 57 minutos",
-      "+Hace una hora",
-      " Peramato alerta de 17 agresiones sexuales tras la crisis de Ceuta y reforzará la plantilla con tres fiscales más"
-    ]
-  },
-  {
     "id": "haro-2026-08-27T15:41:23+00:00",
     "slug": "haro",
     "name": "HARO",
