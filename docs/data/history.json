@@ -1,5 +1,21 @@
 [
   {
+    "id": "najera-2026-08-30T15:14:12+00:00",
+    "slug": "najera",
+    "name": "NAJERA",
+    "url": "https://najera.sedelectronica.es/info.0",
+    "timestamp": "2026-08-30T15:14:12+00:00",
+    "diff": [
+      "--- ",
+      "+++ ",
+      "@@ -30,3 +30,3 @@",
+      " Menú",
+      "-30 de agosto 2026, 17:08:16",
+      "+30 de agosto 2026, 17:14:27",
+      " Padrón de habitantes"
+    ]
+  },
+  {
     "id": "haro-2026-08-28T22:10:22+00:00",
     "slug": "haro",
     "name": "HARO",
