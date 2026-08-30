@@ -96,6 +96,13 @@ def main():
         return
 
     sites_status = load_json(SITES_FILE, {})
+    active_slugs = {slugify(site["name"]) for site in sites_config}
+    sites_status = {
+    slug: data
+    for slug, data in sites_status.items()
+    if slug in active_slugs
+}
+
     history = load_json(HISTORY_FILE, [])
 
     os.makedirs(SNAPSHOTS_DIR, exist_ok=True)
