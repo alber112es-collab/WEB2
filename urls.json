@@ -9,25 +9,20 @@
     "url": "https://logrono.es/-/bases-y-convocatoria-para-la-creacion-de-una-bolsa-de-empleo-como-personal-funcionario-en-regimen-de-interinidad-en-plaza-de-tecnico/a-de-administracion-general-",
     "selector": null
   },
-{
-  "name": "AGE",
-  "url": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-general-administrativo-de-la-administracion-del-estado-ingreso-libre-convocatoria-2025",
-  "selector": null
-},
   {
-  "name": "ADM-LOCAL",
-  "url": "https://www.larioja.org/larioja-client/cm/portal-ayuntamientos/tkContent?idContent=871400&locale=es_ES",
-  "selector": null
-},
-{
-  "name": "NAJERA",
-  "url": "https://najera.sedelectronica.es/info.0",
-  "selector": "text:Tablón de anuncios"
-},
+    "name": "Unirioja",
+    "url": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
+    "selector": "text:Escala Auxiliar de Administración"
+  },
   {
     "name": "Calahorra",
     "url": "https://sede.calahorra.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=TABLON",
     "selector": null
+  },
+  {
+    "name": "NAJERA",
+    "url": "https://najera.sedelectronica.es/info.0",
+    "selector": "text:Tablón de anuncios"
   },
   {
     "name": "Logroño-2",
