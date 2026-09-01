@@ -1,48 +1,87 @@
 import requests
 import time
+import hashlib
+from datetime import datetime
 
-# Lista de sitios a comprobar
 sites = {
     "HARO": "https://haro.sedipualba.es/tablondeanuncios/",
     "Unirioja": "https://www.unirioja.es/administracion-y-servicios/servicio-de-personal/lista-de-espera/",
-    "Logroño-1": "https://example.com/logrono1",
-    "Calahorra": "https://example.com/calahorra",
-    "Najera": "https://example.com/najera",
-    "Logroño-2": "https://example.com/logrono2",
     "SEC-INT": "https://www.larioja.org/larioja-client/cm/portal-ayuntamientos/tkContent?idContent=871400&locale=es_ES",
     "AGE": "https://sede.inap.gob.es/es/procedimientos-y-servicios/seleccion/procesos-selectivos-de-cuerpos-y-escalas-generales/cuerpo-general-administrativo-de-la-administracion-del-estado-ingreso-libre-convocatoria-2025"
 }
 
+LOG_FILE = "check_sites.log"
+HASH_FILE = "site_hashes.txt"
+
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+})
+
+def log(msg):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(LOG_FILE, "a") as f:
+        f.write(f"{timestamp} - {msg}\n")
+    print(msg)
+
+def load_hashes():
+    hashes = {}
+    try:
+        with open(HASH_FILE, "r") as f:
+            for line in f:
+                name, h = line.strip().split("=", 1)
+                hashes[name] = h
+    except FileNotFoundError:
+        pass
+    return hashes
+
+def save_hashes(hashes):
+    with open(HASH_FILE, "w") as f:
+        for name, h in hashes.items():
+            f.write(f"{name}={h}\n")
+
 def check_site(name, url, retries=3, backoff_factor=2):
-    """Comprueba un sitio con reintentos y manejo de errores."""
     for attempt in range(retries):
         try:
-            response = requests.get(url, timeout=20)
+            response = session.get(url, timeout=20)
             if response.status_code == 200:
-                print(f"[OK] {name}: sin cambios")
-                return True
+                return response.text
             elif response.status_code == 429:
                 wait = backoff_factor ** attempt
-                print(f"[WARN] {name}: demasiadas peticiones (429). Esperando {wait}s antes de reintentar...")
+                log(f"[WARN] {name}: 429 Too Many Requests. Esperando {wait}s...")
                 time.sleep(wait)
             else:
-                print(f"[ERROR] {name}: código {response.status_code}")
-                return False
+                log(f"[ERROR] {name}: código {response.status_code}")
+                return None
         except requests.exceptions.Timeout:
-            print(f"[ERROR] {name}: tiempo de espera agotado (timeout). Intento {attempt + 1}/{retries}")
+            log(f"[ERROR] {name}: timeout. Intento {attempt+1}/{retries}")
             time.sleep(backoff_factor ** attempt)
         except requests.exceptions.RequestException as e:
-            print(f"[ERROR] {name}: {e}")
-            return False
-    print(f"[FAIL] {name}: no se pudo acceder tras {retries} intentos.")
-    return False
+            log(f"[ERROR] {name}: {e}")
+            return None
+    log(f"[FAIL] {name}: no accesible tras {retries} intentos.")
+    return None
 
 def main():
-    print("▶ Iniciando revisión de sitios...\n")
+    log("▶ Iniciando revisión de sitios...")
+    hashes = load_hashes()
+
     for name, url in sites.items():
-        print(f"[check] {name}")
-        check_site(name, url)
-    print("\nRevisión completa.")
+        log(f"[check] {name}")
+        content = check_site(name, url)
+
+        if content:
+            new_hash = hashlib.sha256(content.encode()).hexdigest()
+            old_hash = hashes.get(name)
+
+            if old_hash != new_hash:
+                log(f"[CHANGE] {name}: ¡Contenido cambiado!")
+                hashes[name] = new_hash
+            else:
+                log(f"[OK] {name}: sin cambios")
+
+    save_hashes(hashes)
+    log("✔ Revisión completa.\n")
 
 if __name__ == "__main__":
     main()
